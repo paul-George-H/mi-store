@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入图标字体库 -->
+    <link rel="stylesheet" href="./图标字体/css/all.css">
+    <!-- 引入公共的样式表 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 引入当前页面的样式表 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- title的图标样式 -->
+    <link rel="icon" href="./favicon.ico">
+    <!-- 先引入动画js，首页js才能调用动画js -->
+    <script src="./js/animate.js"></script>
+    <!-- 引入我们首页的js -->
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航条 -->
+    <!-- 顶部导航条外部容器 -->
+    <div class="topbar-wrapper">
+        <!-- 创建内部容器 -->
+        <div class="topbar w clearfix">
+            <!-- 左侧导航条 -->
+            <ul class="service">
+                <li><a href="javascript:;">小米商城</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">MIUI</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">loT</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">云服务</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">天星数科</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">有品</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">小爱开放平台</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">企业团购</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">资质证照</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">协议规则</a></li>
+                <li class="line">|</li>
+                <li class="app-wrapper">
+                    <a class="app" href="javascript:;">
+                        下载app
+                        <!-- 添加一个弹出层 -->
+                        <div class="qrcode">
+                            <img src="./img/二维码.png" alt="二维码">
+                            <span>小米商城APP</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">Select Location</a></li>
+            </ul>
+            <!-- 购物车 -->
+            <ul class="shop-cart">
+                <li>
+                    <a href="javascript:;">
+                        <i class="fas fa-shopping-cart"></i>
+                        购物车(0)
+                    </a>
+                    <div class="shopcode">
+                        <span>购物车中还没有商品，赶紧选购吧</span>
+                    </div>
+                </li>
+            </ul>
+            <!-- 用户登录注册 -->
+            <ul class="user-info">
+                <li><a href="javascript:;">登录</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">注册</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">消息通知</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 中间logo及导航条 -->
+    <div class="header-wrapper">
+        <div class="header w clearfix">
+            <!-- 左侧logo -->
+            <h1 class="logo">
+                小米官网
+                <a class="home" href="#"></a>
+                <a class="mi" href="#"></a>
+            </h1>
+            <!-- 中间导航栏 -->
+            <div class="nav-wrapper">
+                <ul class="nav clearfix">
+                    <li class="all-goods-wrapper">
+                        <a class="all-goods" href="javascript:;">全部商品</a>
+                        <ul class="left-menu">
+                            <li><a href="javascript:;">
+                                    手机 电话卡
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    电视 盒子
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    笔记本 平板
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    家电 插线板
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    出行 穿戴
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    智能 路由器
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    电源 配件
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    健康 儿童
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    耳机 音箱
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                            <li><a href="javascript:;">
+                                    生活 箱包
+                                    <i class="fas fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="show-goods"><a href="javascript:;">小米手机</a></li>
+                    <li class="show-goods"><a href="javascript:;">Redmi 红米</a></li>
+                    <li class="show-goods"><a href="javascript:;">电视</a></li>
+                    <li class="show-goods"><a href="javascript:;">笔记本</a></li>
+                    <li class="show-goods"><a href="javascript:;">家电</a></li>
+                    <li class="show-goods"><a href="javascript:;">路由器</a></li>
+                    <li class="show-goods"><a href="javascript:;">智能硬件</a></li>
+                    <li><a href="javascript:;">服务</a></li>
+                    <li><a href="javascript:;">社区</a></li>
+                    <!-- 创建一个弹出层 -->
+                    <div class="goods-info">
+                        
+                    </div>
+                </ul>
+            </div>
+            <!-- 右边搜索栏 -->
+            <div class="search-wrapper">
+                <form action="#">
+                    <input class="search-inp" type="text" name="search" placeholder="冰箱" autocomplete="off">
+                    <button class="search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <div class="search-box">
+                    <span>全部商品</span>
+                    <span>小米11</span>
+                    <span>小米10S</span>
+                    <span>小米笔记本</span>
+                    <span>小米手机</span>
+                    <span>黑鲨4</span>
+                    <span>小米空调</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 创建一个banner容器 中部 -->
+    <div class="banner-wrapper">
+        <div class="banner w">
+            <ul class="img-list">
+                <li><a href="javascript:;"><img src="../mi/img/轮播图/1.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="../mi/img/轮播图/2.webp" alt=""></a></li>
+                <li><a href="javascript:;"><img src="../mi/img/轮播图/3.webp" alt=""></a></li>
+                <li><a href="javascript:;"><img src="../mi/img/轮播图/4.webp" alt=""></a></li>
+            </ul>
+            <ol class="pointer">
+                
+            </ol>
+            <div class="prev-next">
+                <a class="prev" href="javascript:;"></a>
+                <a class="next" href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 创建一个右边的导航栏 -->
+    <div class="back-top">
+        <ul>
+            <li>
+                <a href="javascript:;"><i class="fas fa-tablet"></i></a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="fas fa-bus"></i></a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="fas fa-wrench"></i></a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="fas fa-address-book"></i></a>
+            </li>
+            <li>
+                <a href="javascript:;"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!-- 创建一个广告容器 -->
+    <div class="db-wrapper w clearfix">
+        <div class="left-db">
+            <ul>
+                <li>
+                    <a href="javascript:;"><img src="../mi/img/left-db-imgs/1db.png" alt="">保障服务</a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="../mi/img/left-db-imgs/2db.png" alt="">企业团购</a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="../mi/img/left-db-imgs/3db.png" alt="">F码通道</a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="../mi/img/left-db-imgs/4db.png" alt="">米粉卡</a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="../mi/img/left-db-imgs/5db.png" alt="">以旧换新</a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="../mi/img/left-db-imgs/6db.png" alt="">话费充值</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right-db">
+            <ul>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/right-db-imgs/1-db.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/right-db-imgs/2-db.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="./img/right-db-imgs/3-db.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 创建一个商品容器 -->
+    <div class="commodity-wrapper clearfix">
+        <div class="top-cd w">
+            <a href="javascript:;">
+                <img src="./img/commodity/01.webp" alt="真我GT">
+            </a>
+        </div>
+        <div class="baner-cd-wrapper">
+            <div class="hd-wrapper w">
+                <h2>手机</h2>
+                <a href="javascript:;">查看更多 <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="phone-wrapper w clearfix">
+                <div class="left-phone">
+                    <ul>
+                        <li><a href="javascript:;">
+                                <img src="./img/phone/1.webp" alt="">
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="right-phone clearfix">
+                    <ul class="clearfix">
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/2.webp" alt=""></div>
+                                <h3>Redmi Note 11T Pro+</h3>
+                                <p class="desc">天机8100 | 真旗舰芯</p>
+                                <p class="price">2099元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/3.webp" alt=""></div>
+                                <h3>Redmi Note 11T Pro</h3>
+                                <p class="desc">天机8100 | 真旗舰芯</p>
+                                <p class="price">1799元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/4.webp" alt=""></div>
+                                <h3>Redmi Note 11SE</h3>
+                                <p class="desc">双卡双5G | 疾速登录</p>
+                                <p class="price">1099元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/5.webp" alt=""></div>
+                                <h3>Xiaomi Civi 1S</h3>
+                                <p class="desc">原生美肌人像 | 奇迹阳光动人</p>
+                                <p class="price">2299元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/6.webp" alt=""></div>
+                                <h3>Redmi 10A</h3>
+                                <p class="desc">大电量、大音量、大屏幕</p>
+                                <p class="price">649元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/7.webp" alt=""></div>
+                                <h3>Redmi K50 Pro</h3>
+                                <p class="desc">2K直屏的狠旗舰</p>
+                                <p class="price">2999元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/8.webp" alt=""></div>
+                                <h3>Redmi K50</h3>
+                                <p class="desc">2K直屏的狠旗舰</p>
+                                <p class="price">2399元起</p>
+                            </a></li>
+                        <li><a href="javascript:;">
+                                <div class="phone-imgs"><img src="./img/phone/9.webp" alt=""></div>
+                                <h3>Redmi K40S</h3>
+                                <p class="desc">口碑真旗舰</p>
+                                <p class="price">1799元起</p>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
